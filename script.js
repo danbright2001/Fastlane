@@ -71,3 +71,22 @@ faqs.forEach((faq) => {
     });
 });
 
+let html = '';
+jobs.forEach((job) => {
+    html += `
+        <div class="service">
+            <div class="service__title">
+                <img src="${job.jobIcon}" alt="">
+                <h3>${job.jobTitle}</h3>
+            </div>
+            <div class="service__text">
+                <p>${job.jobDescription}</p>
+            </div>
+            <div class="service__btn">
+                <a class="service__btnn" href="content.html?content=4">Start Working</a>
+            </div>
+        </div>
+    `
+})
+
+document.querySelector('.services').innerHTML = html;
