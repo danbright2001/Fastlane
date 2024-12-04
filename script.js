@@ -1,4 +1,4 @@
-
+import { forDetails} from '../data/for.js';
 
 
 // The menu Navigation
