@@ -90,3 +90,19 @@ jobs.forEach((job) => {
 })
 
 document.querySelector('.services').innerHTML = html;
+
+
+const form = document.getElementById('myForm');
+  const inputs = form.querySelectorAll('input, textarea');
+
+  // Add event listener for form submission
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();  // Prevent the default form submission action
+
+    // Your form submission logic goes here (e.g., AJAX request)
+
+    // Clear all input fields and textareas
+    inputs.forEach(input => {
+      input.value = '';  // Clear the value
+    });
+  });
