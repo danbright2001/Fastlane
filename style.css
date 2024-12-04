@@ -283,9 +283,11 @@ header i {
 .framer_2 {
     display: flex;
     align-items: center;
-    height: 2rem;
     border-radius: 50%;
     background: var(--clr-black);
+}
+.framer_2 img {
+    height: 2rem;
 }
 
     
