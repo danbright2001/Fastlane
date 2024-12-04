@@ -589,7 +589,7 @@ footer {
     .nav__menu li {
         transform: rotateX(90deg);
         opacity: 0;
-        animation: navKey 600ms ease-in-out forwards;
+        animation: navKey 700ms ease-in-out forwards;
         transform-origin: top;
     }
     .nav__menu li:nth-child(1) {
@@ -609,6 +609,9 @@ footer {
     }
     .nav__menu li:nth-child(6) {
         animation-delay: 600ms;
+    }
+    .nav__menu li:nth-child(7) {
+        animation-delay: 700ms;
     }
     @keyframes navKey {
         to {
