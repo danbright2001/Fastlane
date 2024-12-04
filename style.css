@@ -103,7 +103,14 @@ nav {
     justify-content: space-between;
 }
             
-
+.logo__image {
+    display: flex;
+    height: 3.8rem;
+    width: 3.8rem;
+    border-radius: 50%;
+    align-items: center;
+}
+            
         
 .nav__menu {
     list-style-type: none;
