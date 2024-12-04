@@ -293,7 +293,7 @@ header i {
     align-items: center;
     border-radius: 50%;
     background: var(--clr-white);
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .framer_2 img {
     height: 2rem;
