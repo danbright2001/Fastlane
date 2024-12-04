@@ -301,6 +301,10 @@ header i {
     font-weight: 700;
     color: #ff8838;
 }
+.framer_text {
+    display: flex;
+    align-items: center;
+}
 
     
 
