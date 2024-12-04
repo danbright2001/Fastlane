@@ -102,23 +102,8 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-.logo__holder {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    text-decoration: none;
-}
-.logo__image {
-    display: flex;
-    height: 3.8rem;
-    width: 3.8rem;
-    border-radius: 50%;
-}
             
-.logo__text {
-    font-size: 1.7rem;
-    font-weight: 500;
-}
+
         
 .nav__menu {
     list-style-type: none;
