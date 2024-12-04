@@ -97,7 +97,7 @@ const form = document.getElementById('myForm');
 
   // Add event listener for form submission
   form.addEventListener('submit', function (event) {
-    event.preventDefault();  // Prevent the default form submission action
+      // Prevent the default form submission action
 
     // Your form submission logic goes here (e.g., AJAX request)
 
