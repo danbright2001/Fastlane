@@ -566,7 +566,7 @@ footer {
     }
     .nav__menu li a {
         width: 100%;
-        background: #0f1114;
+        background: var(--clr-dark-bg);
         padding: 1rem 4rem;
         text-align: center;
         display: block;
