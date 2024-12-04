@@ -90,3 +90,12 @@ jobs.forEach((job) => {
 })
 
 document.querySelector('.services').innerHTML = html;
+
+window.onload = function() {
+    // Get the form and the input elements
+    const form = document.getElementById('contactForm');
+    const inputs = form.querySelectorAll('input, textarea');
+    
+    // Reset the form (this will clear the input fields)
+    form.reset();
+};
