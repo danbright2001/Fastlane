@@ -438,9 +438,6 @@ header i {
     transition: background-color 0.3s;
 }
 
-.submit-btn:hover {
-    background-color: #0056b3;
-}
 
 /* Right Side - Info */
 .contact-right {
@@ -580,7 +577,7 @@ footer {
     }
     .nav__btns {
         display: inline-block;
-        background: var(--clr-bg);
+        background: var(--clr-dark-bg);
         padding: 5px;
     }
     .nav__close-toggle {
