@@ -294,6 +294,7 @@ header i {
     display: flex;
     gap: 20px;
     align-items: center;
+    flex-direction: column;
 }
 .framer_title {
     font-size: 24px;
