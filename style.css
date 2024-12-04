@@ -281,6 +281,7 @@ header i {
     gap: 20px;
 }
 .framer_2 {
+    justify-content: center;
     display: flex;
     align-items: center;
     border-radius: 50%;
