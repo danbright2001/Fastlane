@@ -15,6 +15,12 @@
     --clr-bg: #060e15;
     --clr-white: white;
     --clr-white70: #ffffffb3;
+    
+    --en-bdrr: 12px;
+    --en-gp: 20px;
+    --en-pd: 20px;
+    --clr-enc-bg: #ffffff05;
+    --clr-en-bd: rgb(255, 255, 255, 0.8);
 
     --clr-primary: linear-gradient(310deg, #ff8838 0%, #ffb54c 100% );
 }
@@ -260,9 +266,10 @@ header i {
     
 }
 .about__content {
-    border: 1px solid var(--clr-white70);
-    padding: 2rem;
-    border-radius: 5px;
+    background: var(--clr-enc-bg);
+    border: 1px solid var(--clr-en-bd);
+    padding: var(--en-pd);
+    border-radius: var(--en-bdrr);
 }
 .about__container h3 {
     margin-bottom: 1.5rem;
