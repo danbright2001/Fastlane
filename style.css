@@ -292,6 +292,7 @@ header i {
     display: flex;
     align-items: center;
     border-radius: 50%;
+    background: var(--clr-white);
 }
 .framer_2 img {
     height: 2rem;
