@@ -1,7 +1,7 @@
 
 
 export const forDetails = [{
-    icon: "beginners_icon.png",
+    icon: "beginner_icon.png",
     title: "BEGINNERS",
     text: ""
 },{
