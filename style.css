@@ -580,6 +580,8 @@ footer {
     }
     .nav__btns {
         display: inline-block;
+        background: var(--clr-bg);
+        padding: 5px;
     }
     .nav__close-toggle {
         display: none;
