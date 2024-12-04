@@ -1,4 +1,6 @@
-const forDetails = [{
+
+
+export const forDetails = [{
     icon: "beginners_icon.png",
     title: "BEGINNERS",
     text: ""

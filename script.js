@@ -71,6 +71,28 @@ faqs.forEach((faq) => {
     });
 });
 
+
+
+let detailHtml  = '';
+
+forDetails.forEach((detail) => {
+    detailHtml = `
+        <div class="framer_1">
+            
+            <div class="framer_2">
+                <img src="images/${detail.icon}" alt="">
+            </div>
+            <div class="framer_3">
+                <div class="framer_title">${detail.title}</div>
+                <div class="framer_text">${detail.text}</div>
+            </div>
+            
+        </div>
+    `
+})
+
+document.querySelector('.framer_container').innerHTML = detailHtml;
+
 let html = '';
 jobs.forEach((job) => {
     html += `
@@ -91,22 +113,3 @@ jobs.forEach((job) => {
 
 document.querySelector('.services').innerHTML = html;
 
-let detailHtml  = '';
-
-forDetails.forEach((detail) => {
-    detailHtml = `
-        <div class="framer_1">
-            
-            <div class="framer_2">
-                <img src="${detail.icon}" alt="">
-            </div>
-            <div class="framer_3">
-                <div class="framer_title">${detail.title}</div>
-                <div class="framer_text">${detail.text}</div>
-            </div>
-            
-        </div>
-    `
-})
-
-document.querySelector('.framer_container').innerHTML = detailHtml;
