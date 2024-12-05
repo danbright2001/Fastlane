@@ -398,6 +398,11 @@ header i {
     margin-top: 15px;
     font-size: 14px;
 }
+.testimonial-content .testimonial-pagination {
+    position: relative;
+    margin-top: 40px;
+    bottom: auto;
+}
 
 
 
