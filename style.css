@@ -335,6 +335,7 @@ header i {
     border: 1px solid var(--clr-en-bd);
     padding: var(--en-pd);
     border-radius: var(--en-bdrr);
+    background: var(--clr-enc-bg);
 }
 .service__title {
     display: flex;
