@@ -368,11 +368,7 @@ header i {
     padding: 12px;
     color: var(--clr-cp);
 }
-.testimonial__container {
-    position: relative;
-    overflow-x: hidden;
-    padding-bottom: 3rem;
-}
+
 
 .avator {
     width: 6rem;
@@ -382,30 +378,6 @@ header i {
     margin: 0 auto 1rem;
     border: 1rem solid var(--clr-black);
 }
-.testimonial__info {
-    text-align: center;
-}
-.testimonial__body {
-    background: #131b23;
-    padding: 2rem;
-    margin-top: 2rem;
-    position: relative;
-    border-radius: 5px;
-}
-
-.testimonial__body::before {
-    content: "";
-    display: block;
-    background: var(--clr-dark-bg);
-    width: 3rem;
-    height: 3rem;
-    position: absolute;
-    left: 50%;
-    top: -1.5rem;
-    transform: rotate(45deg);
-}
-
-
 
 
 
