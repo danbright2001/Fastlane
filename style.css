@@ -15,6 +15,7 @@
     --clr-bg: #060e15;
     --clr-white: white;
     --clr-white70: #ffffffb3;
+    --clr-cp: #ff8838;
     
     --en-bdrr: 12px;
     --en-gp: 20px;
@@ -186,7 +187,7 @@ nav {
     text-wrap: balance;
 } */
 .t__coo {
-    color: #ffa545;
+    color: var(--clr-cp);
     font-weight: 700;
 }
 .hero__right {
@@ -230,7 +231,7 @@ nav {
     font-weight: 800;
     font-size: 26px;
     text-transform: uppercase;
-    border: 4px solid #ff8838;
+    border: 4px solid var(--clr-cp);
 
     box-shadow: 0 0 40px #ffbb3836;
     
@@ -312,7 +313,7 @@ header i {
 .framer_title {
     font-size: 24px;
     font-weight: 700;
-    color: #ff8838;
+    color: var(--clr-cp);
 }
 .framer_text {
     display: flex;
@@ -325,14 +326,15 @@ header i {
 
 .services {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px 1fr));
+    justify-content: center;
     margin-top: 1.5rem;
-    gap: 2rem;
+    gap: var(--en-gp);
 }
 .service {
-    border: 1px solid var(--clr-white70);
-    padding: 2rem;
-    border-radius: 5px;
+    border: 1px solid var(--clr-en-bd);
+    padding: var(--en-pd);
+    border-radius: var(--en-bdrr);
 }
 .service__title {
     display: flex;
@@ -351,19 +353,19 @@ header i {
             cursor: pointer;
             margin-top: 2rem;
             .service__btnn {
-                border: 1px solid rgb(255, 165, 69);
+                border: 1px solid var(--clr-cp);
                 border-radius: 10px;
-                padding: 12px 24px;
-                color: #ffa545;
+                padding: 12px 12px;
+                color: var(--clr-cp);
             }
         }
 
 
 .service__btnn {
-    border: 1px solid rgb(255, 165, 69);
+    border: 1px solid var(--clr-cp);
     border-radius: 10px;
-    padding: 12px 24px;
-    color: #ffa545;
+    padding: 12px;
+    color: var(--clr-cp);
 }
 .testimonial__container {
     position: relative;
