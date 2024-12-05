@@ -76,7 +76,7 @@ faqs.forEach((faq) => {
 let detailHtml  = '';
 
 forDetails.forEach((detail) => {
-    detailHtml = `
+    detailHtml += `
         <div class="framer_1">
             
             <div class="framer_2">
@@ -92,6 +92,9 @@ forDetails.forEach((detail) => {
 })
 
 document.querySelector('.framer_container').innerHTML = detailHtml;
+
+
+
 
 let html = '';
 jobs.forEach((job) => {
