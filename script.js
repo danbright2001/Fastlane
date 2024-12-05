@@ -1,4 +1,5 @@
 import { forDetails} from '../data/for.js';
+import { jobs} from '../data/jobs.js';
 
 
 // The menu Navigation

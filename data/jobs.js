@@ -1,4 +1,4 @@
-const jobs = [{
+export const jobs = [{
     jobIcon: "https://framerusercontent.com/images/qA0uC358aXdWAfo2I4Op5FbtnoY.svg",
 
     jobTitle: "COPYWRITING",
