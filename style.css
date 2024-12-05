@@ -275,7 +275,11 @@ header i {
     margin-bottom: 1.5rem;
 }
 
-
+.framer_container {
+    display: grid;
+    grid-template-columns: repeat(1fr, 4);
+    gap: var(--en-gp);
+}
 
 .framer_1 {
     display: flex;
