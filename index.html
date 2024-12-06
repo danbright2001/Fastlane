@@ -160,7 +160,7 @@
     <section class="container">
         <h2>Testimonials</h2>
         <div class="testimonial-content">
-            <div class="swiper testimonial-slider js-testimonial-slider">
+            <div class="swiper mySwiper testimonial-slider js-testimonial-slider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide testimonial-item">
                         <div class="info">
@@ -212,11 +212,6 @@
                     </div>
                 </div>
                 <div class="swiper-pagination js-testimonial-pagination"></div>
-
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-
-                <div class="swiper-scrollbar"></div>
             </div>
         </div>
     </section>
@@ -403,27 +398,15 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper('.swiper', {
-            // Optional parameters
-            direction: 'horizontal',
-            loop: true,
-
-            // If we need pagination
+        var swiper = new Swiper(".mySwiper", {
             pagination: {
-                el: '.swiper-pagination',
+            el: ".swiper-pagination",
+            clickable: true,
+            renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + (index + 1) + "</span>";
             },
-
-            // Navigation arrows
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-
-            // And if we need scrollbar
-            scrollbar: {
-                el: '.swiper-scrollbar',
-            },
-        });
+        },
+    });
     </script>
     <script type="module" src="script.js">
         
