@@ -374,6 +374,7 @@ header i {
 
 .mySwiper {
     width: 100%;
+    overflow: hidden;
 }
 .swiper-wrapper {
     justify-content: center;
