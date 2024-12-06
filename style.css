@@ -382,6 +382,7 @@ header i {
     border-radius: var(--en-bdrr);
     margin: 0 0px;
     justify-content: center;
+    flex-direction: column;
 }
 .testimonial-item .info {
     display: flex;
