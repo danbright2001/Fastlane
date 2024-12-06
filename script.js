@@ -116,7 +116,7 @@ jobs.forEach((job) => {
             </div>
         </div>
     `
-})
+});
 
 document.querySelector('.services').innerHTML = html;
 
@@ -136,4 +136,6 @@ testimonials.forEach((testimoniali) => {
             <div class="rating"></div>
         </div>
     `
-})
+});
+
+document.querySelector('.js-testimonial').innerHTML = testimonialHtml;
