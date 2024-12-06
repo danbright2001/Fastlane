@@ -1,18 +1,6 @@
 export const testimonials = [
 {
     testimonial_icon: "",
-    testimonial_name: "Daniel Wekesa",
-    testimonial_position: "Software Engineer",
-    testimonial: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorem voluptas aspernatur autem, natus veritatis voluptate? Minima quam autem ipsam.",
-},
-{
-    testimonial_icon: "",
-    testimonial_name: "Ezra Makhulo",
-    testimonial_position: "Accountant",
-    testimonial: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorem voluptas aspernatur autem, natus veritatis voluptate? Minima quam autem ipsam.",
-},
-{
-    testimonial_icon: "",
     testimonial_name: "Lincoln Karanja",
     testimonial_position: "Finance analyst",
     testimonial: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorem voluptas aspernatur autem, natus veritatis voluptate? Minima quam autem ipsam.",
