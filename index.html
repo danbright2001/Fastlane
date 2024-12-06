@@ -398,15 +398,27 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        var swiper = new Swiper(".mySwiper", {
+       var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1, // Default number of slides per view
             pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-            renderBullet: function (index, className) {
-            return '<span class="' + className + '">' + (index + 1) + "</span>";
+                el: ".swiper-pagination",
+                clickable: true,
+                renderBullet: function (index, className) {
+                return '<span class="' + className + '">' + (index + 1) + "</span>";
+                },
             },
-        },
-    });
+            breakpoints: {
+                // When the viewport width is 640px or more
+                640: {
+                slidesPerView: 2, // 2 slides per view
+                },
+                // When the viewport width is 1024px or more
+                1024: {
+                slidesPerView: 3, // 3 slides per view
+                },
+            },
+        });
+
     </script>
     <script type="module" src="script.js">
         
