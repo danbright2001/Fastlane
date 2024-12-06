@@ -404,7 +404,7 @@ header i {
   /* Position the pagination below the swiper slides */
 .swiper-pagination {
     position: absolute;
-    bottom: -30px; /* Adjust the distance as needed */
+    bottom: -10px; /* Adjust the distance as needed */
     left: 0;
     width: 100%;
     display: flex;
