@@ -1,5 +1,8 @@
 import { forDetails} from '../data/for.js';
+import { testimonials} from '../data/testimonials.js';
 import { jobs} from '../data/jobs.js';
+
+
 
 
 // The menu Navigation
@@ -117,3 +120,4 @@ jobs.forEach((job) => {
 
 document.querySelector('.services').innerHTML = html;
 
+let testimonialHtml = '';
