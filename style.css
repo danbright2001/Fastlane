@@ -374,7 +374,7 @@ header i {
     background: var(--clr-enc-bg);
     padding: 20px;
     border-radius: var(--en-bdrr);
-    margin: 0 20px;
+    margin: 0 10px;
 }
 .testimonial-item .info {
     display: flex;
@@ -397,21 +397,9 @@ header i {
 }
 
 /* Ensure the swiper container has relative positioning */
-.mySwiper {
-    position: reative; /* This makes the parent a reference point for absolute positioning */
-}
-  
-  /* Position the pagination below the swiper slides */
-.swiper-pagination {
-    position: a;
-    bottom: 20px; /* Adjust the distance as needed */
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center; /* Horizontally center the pagination */
-}
 
-.testimonial-content .testimonial-pagination {
+
+.swiper-pagination {
     position: relative;
     margin-top: 40px;
     bottom: auto;
