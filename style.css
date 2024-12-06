@@ -369,22 +369,27 @@ header i {
     color: var(--clr-cp);
 }
 
+
+
+
+.mySwiper {
+    width: 100%;
+}
 .swiper-wrapper {
-
-    
     justify-content: center;
-
 }
 .testimonial-item {
-    display: flex;
-    align-items: center;
     background: var(--clr-enc-bg);
     padding: 20px;
     border-radius: var(--en-bdrr);
-    margin: 0 0px;
+}
+.swiper-slide {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: 100%; /* Ensure slides take full height of container */
     flex-direction: column;
-    width: 100%;
 }
 .testimonial-item .info {
     display: flex;
@@ -407,8 +412,6 @@ header i {
 }
 
 /* Ensure the swiper container has relative positioning */
-
-
 .swiper-pagination {
     position: relative;
     margin-top: 40px;
