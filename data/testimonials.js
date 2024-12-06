@@ -23,4 +23,11 @@ export const testimonials = [
     testimonial_position: "Attorney",
     testimonial: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorem voluptas aspernatur autem, natus veritatis voluptate? Minima quam autem ipsam.",
 },
-]
+{
+    testimonial_icon: "",
+    testimonial_name: "Levron Kipngetich",
+    testimonial_position: "Teacher",
+    testimonial: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorem voluptas aspernatur autem, natus veritatis voluptate? Minima quam autem ipsam.",
+}
+
+];
