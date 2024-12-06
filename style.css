@@ -379,6 +379,7 @@ header i {
     padding: 20px;
     border-radius: var(--en-bdrr);
     margin: 0 0px;
+    align-self: stretch;
 }
 .testimonial-item .info {
     display: flex;
