@@ -371,6 +371,7 @@ header i {
 
 .swiper-wrapper {
     align-items: stretch;
+    
     justify-content: center;
 }
 .testimonial-item {
