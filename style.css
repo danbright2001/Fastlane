@@ -374,7 +374,7 @@ header i {
     background: var(--clr-enc-bg);
     padding: 20px;
     border-radius: var(--en-bdrr);
-    margin: 0 10px;
+    margin: 0 0px;
 }
 .testimonial-item .info {
     display: flex;
