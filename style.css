@@ -398,7 +398,7 @@ header i {
 
 /* Ensure the swiper container has relative positioning */
 .mySwiper {
-    position: relative; /* This makes the parent a reference point for absolute positioning */
+    position: reative; /* This makes the parent a reference point for absolute positioning */
 }
   
   /* Position the pagination below the swiper slides */
