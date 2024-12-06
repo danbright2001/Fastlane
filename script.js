@@ -133,7 +133,6 @@ testimonials.forEach((testimoniali) => {
 
             </div>
             <p>${testimoniali.testimonial}</p>
-            <div class="rating"></div>
         </div>
     `
 });

@@ -352,21 +352,37 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 1, // Default number of slides per view
+            slidesPerView: 1,
+            spaceBetween: 20, // Add spacing between slides
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
                 renderBullet: function (index, className) {
-                return '<span class="' + className + '">' + (index + 1) + "</span>";
+                    return '<span class="' + className + '">' + (index + 1) + "</span>";
                 },
             },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true,
             breakpoints: {
-                // When the viewport width is 640px or more
-                640: {
-                slidesPerView: 2, // 2 slides per view
+                480: {
+                    slidesPerView: 1,
                 },
-            }
-        });
+                640: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+            },
+    });
+
 
     </script>
     <script type="module" src="script.js">

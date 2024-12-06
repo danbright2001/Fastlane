@@ -370,7 +370,6 @@ header i {
 }
 
 .swiper-wrapper {
-    gap: 10px;
     justify-content: center;
 }
 .testimonial-item {
