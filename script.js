@@ -121,3 +121,19 @@ jobs.forEach((job) => {
 document.querySelector('.services').innerHTML = html;
 
 let testimonialHtml = '';
+testimonials.forEach((testimoniali) => {
+    testimonialHtml += `
+        <div class="swiper-slide testimonial-item">
+            <div class="info">
+                <img src="images/freepik__an_icon_of_word_nileup.png" alt="">
+                <div class="text-box">
+                    <h3>${testimoniali.testimonial_name}</h3>
+                    <span class="job">${testimoniali.testimonial_position}</span>
+                </div>
+
+            </div>
+            <p>${testimoniali.testimonial}</p>
+            <div class="rating"></div>
+        </div>
+    `
+})
