@@ -370,9 +370,10 @@ header i {
 }
 
 .swiper-wrapper {
-    align-items: stretch;
+
     
     justify-content: center;
+
 }
 .testimonial-item {
     display: flex;
@@ -383,6 +384,7 @@ header i {
     margin: 0 0px;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 }
 .testimonial-item .info {
     display: flex;
