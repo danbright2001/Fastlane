@@ -395,9 +395,20 @@ header i {
 .testimonial-item p {
     margin-top: 20px;
 }
-.testimonial-item .rating {
-    margin-top: 15px;
-    font-size: 14px;
+
+/* Ensure the swiper container has relative positioning */
+.mySwiper {
+    position: relative; /* This makes the parent a reference point for absolute positioning */
+}
+  
+  /* Position the pagination below the swiper slides */
+.swiper-pagination {
+    position: absolute;
+    bottom: -30px; /* Adjust the distance as needed */
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Horizontally center the pagination */
 }
 
 .testimonial-content .testimonial-pagination {
