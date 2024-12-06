@@ -375,11 +375,13 @@ header i {
     justify-content: center;
 }
 .testimonial-item {
+    display: flex;
+    align-items: center;
     background: var(--clr-enc-bg);
     padding: 20px;
     border-radius: var(--en-bdrr);
     margin: 0 0px;
-    align-self: stretch;
+    justify-content: center;
 }
 .testimonial-item .info {
     display: flex;

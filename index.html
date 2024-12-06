@@ -352,16 +352,25 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
        var swiper = new Swiper(".mySwiper", {
-            spaceBetween: 20,
+            spaceBetween: 0, // Space between slides
             pagination: {
                 el: ".swiper-pagination",
-                clickable: true,
+                clickable: true, // Enable clickable pagination bullets
             },
-            slidesPerview: 1,
-            breakingpoints:{
-
+            breakpoints: {
+                // When the viewport is 640px or more, show 1 slide
+                640: {
+                slidesPerView: 1, // Show 1 slide on medium screens
+                },
+                // When the viewport is 1024px or more, show 3 slides
+                1024: {
+                slidesPerView: 3,
+                centeredSlides: true,
+                 // Show 3 slides on large screens
+                },
             },
         });
+
     </script>
     <script type="module" src="script.js">
         
