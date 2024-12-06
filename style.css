@@ -398,6 +398,10 @@ header i {
     margin-top: 15px;
     font-size: 14px;
 }
+.swiper {
+    width: 600px;
+    height: 300px;
+}
 .testimonial-content .testimonial-pagination {
     position: relative;
     margin-top: 40px;

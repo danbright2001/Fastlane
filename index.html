@@ -398,18 +398,26 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper('.js-testimonial-slider', {
-            grabCursor: true,
-            spaceBetween: 20,
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'vertical',
+            loop: true,
+
+            // If we need pagination
             pagination: {
-                el: '.js-testimonial-pagination',
-                clickable: true
+                el: '.swiper-pagination',
             },
-            breakpoints:{
-                768:{
-                    slidesPerview: 2
-                }
-            }
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
         });
     </script>
     <script type="module" src="script.js">
