@@ -91,13 +91,13 @@ nav {
     display: grid;
     align-items: center;
     place-items: center;
-    height: 5rem;
+    height: 3.7rem;
     width: 100vw;
     position: fixed;
-    background: #fff;
+    background: var(--clr-dark-bg);
     z-index: 10;
     top: 0;
-    border-bottom: 3px solid var(--clr-white);
+    border-bottom: 1px solid var(--clr-en-bd);
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(15px);
     -moz-backdrop-filter: blur(15px);
@@ -131,19 +131,24 @@ nav {
 }
 .nav__btn {
     letter-spacing: .01em;
-    background-color: #3898ec00;
-    border: 1px solid #a3a3a3;
+    background-color: var(--clr-cp);
+    border: none;
+    outline: none;
+    color: var(--clr-white);
     font-family: Clashdisplay Variable, sans-serif;
     font-weight: 600;
     line-height: 1.25;
-    padding: .75rem 2rem;
+    padding: 7px 20px;
+    border-radius: 25px;
 }
-        
+.nav__btn2 {
+    background-color: unset;
+    border: 1px solid var(--clr-cp);
+}     
 .nav__btns {
     display: none;
     cursor: pointer;
     border: none;
-    background: none;
     color: var(--clr-white);
     font-size: 1.6rem;
     align-items: center;
@@ -155,7 +160,7 @@ nav {
 
 
 .hero {
-    margin-top: 5rem;
+    margin-top: 7rem;
     background: url('./images/darkc.png') no-repeat center center/cover;
 
     position: relative;
@@ -201,7 +206,7 @@ nav {
 
 
 .hero__text {
-    margin: 3rem 0;
+    margin: 0 auto 2rem;
     font-size: 1.2rem;
     letter-spacing: 1px;
     line-height: 2;
@@ -745,9 +750,7 @@ footer {
         font-size: 2rem;
         text-align: center;
     }
-    .hero__right {
-        display: none;
-    }
+
     .hero__cta a {
         padding: .45rem 0.9rem;
     }

@@ -1,4 +1,4 @@
-export const testmonials = [
+export const testimonials = [
 {
     testimonial_icon: "",
     testimonial_name: "Lincoln Karanja",
