@@ -3,7 +3,9 @@ export const jobs = [{
 
     jobTitle: "COPYWRITING",
 
-    jobDescription: "Copywriting is the art of creating engaging text that persuades readers to take action, such as making a purchase or subscribing to a service."
+    jobDescription: "Copywriting is the art of creating engaging text that persuades readers to take action, such as making a purchase or subscribing to a service.",
+
+    jobImage: "transcrition.png"
 },
 
 {
@@ -11,7 +13,9 @@ export const jobs = [{
 
     jobTitle: "TRANSCRIPTION",
 
-    jobDescription: "Transcription involves listening to audio or video recordings and converting them into written text."
+    jobDescription: "Transcription involves listening to audio or video recordings and converting them into written text.",
+
+    jobImage: "transcrition.png"
 },  
 
 {
@@ -19,7 +23,9 @@ export const jobs = [{
 
     jobTitle: "SOCIAL MEDIA MANAGEMENT",
 
-    jobDescription: "Social media management involves creating, scheduling, and analyzing content posted on social media platforms to engage with and grow an audience."
+    jobDescription: "Social media management involves creating, scheduling, and analyzing content posted on social media platforms to engage with and grow an audience.",
+
+    jobImage: "transcrition.png"
 }, 
 
 {
@@ -27,6 +33,8 @@ export const jobs = [{
 
     jobTitle: "CRYPTO TRADING",
 
-    jobDescription: "Crypto trading is the practice of buying and selling digital currencies to make a profit."
+    jobDescription: "Crypto trading is the practice of buying and selling digital currencies to make a profit.",
+
+    jobImage: "transcrition.png"
 },   
 ];

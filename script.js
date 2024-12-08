@@ -110,13 +110,22 @@ jobs.forEach((job) => {
             </div>
             <div class="service__text">
                 <p>${job.jobDescription}</p>
+
+                
+                <div>
+                    <img src="images/${job.jobImage}" alt="">
+                </div>
             </div>
-            <div class="service__btn">
-                <a class="service__btnn" href="content.html?content=4">Start Working</a>
-            </div>
+            
+
+            
         </div>
     `
 });
+
+{/* <div class="service__btn">
+                    <a class="service__btnn" href="content.html?content=4">Start Working</a>
+                </div> */}
 
 document.querySelector('.services').innerHTML = html;
 
