@@ -75,7 +75,7 @@ class MyNav extends HTMLElement {
         this.innerHTML = `
             <nav>
                 <div class="container nav__container">
-                <a href="" class="logo__holder">
+                <a href="index.html" class="logo__holder">
                     <img class="logo__image" src="images/nile-log.png" alt="">
                     
                 </a>
