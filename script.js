@@ -112,9 +112,10 @@ jobs.forEach((job) => {
                 <p>${job.jobDescription}</p>
             </div>
                 
-            <div>
+            <div class="job__image">
                 <img src="images/${job.jobImage}" alt="">
             </div>  
+            <a class="job__btn nav__btn" href="">Apply Now</a> 
         </div>
     `
 });

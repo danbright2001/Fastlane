@@ -326,7 +326,7 @@ header i {
 
 .services {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     margin-top: 1.5rem;
     gap: var(--en-gp);
@@ -336,9 +336,7 @@ header i {
     padding: var(--en-pd);
     border-radius: var(--en-bdrr);
     background: var(--clr-enc-bg);
-    max-width: 900px;
-    align-self: stretch;
-    margin: 0 auto;
+    position: relative;
 }
 .service__title {
     display: flex;
@@ -351,40 +349,25 @@ header i {
 }
 
 .service__text {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: var(--en-gp);
-
+    width: 100%;
 }
 .service__text p {
     width: 100%;
 }
-.service__text div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.job__image {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
 }
-
-.service__text img {
+.job__image img {
     height: 8rem;
+    object-fit: contain;
 }
-        .service__btn {
-            cursor: pointer;
-            margin-top: 2rem;
-            .service__btnn {
-                border: 1px solid var(--clr-cp);
-                border-radius: 10px;
-                padding: 12px 12px;
-                color: var(--clr-cp);
-            }
-        }
 
-
-.service__btnn {
-    border: 1px solid var(--clr-cp);
-    border-radius: 10px;
-    padding: 12px;
-    color: var(--clr-cp);
+.job__btn {
+    position: absolute;
+    bottom: 1rem;
+    right: 30%;
 }
 
 
@@ -443,12 +426,12 @@ header i {
     margin-inline: auto;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: var(--en-gp);
 }
 .faqs {
     background-color: var(--clr-dark-bg);
     border: 1px solid var(--clr-white70);
-    padding: 1.2rem;
+    padding: var(--en-pd);
     border-radius: 5px;
 }
 
