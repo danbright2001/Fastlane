@@ -115,16 +115,34 @@ jobs.forEach((job) => {
             <div class="job__image">
                 <img src="images/${job.jobImage}" alt="">
             </div>  
-            <a class="job__btn nav__btn" href="">Apply Now</a> 
+            <a class="job__btn nav__btn" href="jobsignup.html">Apply Now</a> 
         </div>
     `
 });
+
+document.querySelector('.services').innerHTML = html;
+
+let jobHtml = '';
+jobs.forEach((job) => {
+    jobHtml += `
+        <div class="service">
+            <div class="service__title">
+                <img src="${job.jobIcon}" alt="">
+                <h3>${job.jobTitle}</h3>
+            </div>
+            <div class="service__title">
+                <p>${job.jobDescription}</p>
+            </div> 
+        </div>
+    `
+});
+document.querySelector('.jobsignup').innerHTML = jobHtml;
+
 
 {/* <div class="service__btn">
                     <a class="service__btnn" href="content.html?content=4">Start Working</a>
                 </div> */}
 
-document.querySelector('.services').innerHTML = html;
 
 let testimonialHtml = '';
 testimonials.forEach((testimoniali) => {
