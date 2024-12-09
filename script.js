@@ -108,17 +108,13 @@ jobs.forEach((job) => {
                 <img src="${job.jobIcon}" alt="">
                 <h3>${job.jobTitle}</h3>
             </div>
-            <div class="service__text">
+            <div class="service__title">
                 <p>${job.jobDescription}</p>
-
-                
-                <div>
-                    <img src="images/${job.jobImage}" alt="">
-                </div>
             </div>
-            
-
-            
+                
+            <div>
+                <img src="images/${job.jobImage}" alt="">
+            </div>  
         </div>
     `
 });
