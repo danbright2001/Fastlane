@@ -115,7 +115,6 @@ nav {
 .logo__image {
     display: flex;
     height: 3.1rem;
-    background: var(--clr-white);
     object-fit: contain;
     align-items: center;
 }
