@@ -1,3 +1,44 @@
 .jobsignup {
-    margin-top: 8rem;
+    margin-top: 7rem;
 }
+
+.jobsignup {
+    max-width: 700px;
+    margin-inline: auto;
+    display: block;
+}
+.service {
+    border: none;
+}
+.jobsignup form {
+    max-width: 400px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 0 15px #ff8838;
+    padding: var(--en-gp);
+}
+.jobsignup label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--coo-white);
+}
+
+.jobsignup form input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #ccc;
+    background-color: var(--clr-dark-bg);
+    color: white;
+    margin-bottom: 10px;
+} 
+.jobsignup form input:focus {
+    border: 1px solid #ff8838;
+}
+.jobsignup form .submit-btn {
+    margin-top: 10px;
+}
+

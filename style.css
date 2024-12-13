@@ -619,7 +619,7 @@ footer {
     .nav__menu {
         display: none;
         position: fixed;
-        top: 5rem;
+        top: 3.7rem;
         flex-direction: column;
         right: 0;
         width: fit-content;
@@ -638,7 +638,7 @@ footer {
         display: block;
         font-weight: 600;
         border-top: 1px solid var(--clr-white70);
-        box-shadow: -2rem 5rem 5rem var(--clr-dark-bg)
+        box-shadow: -2rem 5rem 5rem var(--clr-cp);
 
     }
     .nav__btns {
@@ -653,7 +653,7 @@ footer {
         transform: rotateX(90deg);
         opacity: 0;
         animation: navKey 700ms ease-in-out forwards;
-        transform-origin: top;
+        transform-origin: bottom;
     }
     .nav__menu li:nth-child(1) {
         animation-delay: 100ms;
@@ -669,12 +669,6 @@ footer {
     }
     .nav__menu li:nth-child(5) {
         animation-delay: 500ms;
-    }
-    .nav__menu li:nth-child(6) {
-        animation-delay: 600ms;
-    }
-    .nav__menu li:nth-child(7) {
-        animation-delay: 700ms;
     }
     @keyframes navKey {
         to {

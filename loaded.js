@@ -2,14 +2,8 @@ class MyHead extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <head>
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-CN541DCV6L"></script>
-                <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                
-                gtag('config', 'G-CN541DCV6L');
-                </script>
+                <!--Google Verification Tag-->
+
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <meta name="google-site-verification" content="8bWw4f_ilpzg5W3ZC4PE18dqZD-YaRqP68zmaokIPeY" />
@@ -40,28 +34,33 @@ class MyHead extends HTMLElement {
                 <meta name="twitter:description" content="Connect with flexible online job opportunities in transcription, content writing, copywriting, data entry, crypto trading, and more.">
                 <meta name="twitter:image" content="URL_to_image">
 
+
+                
+
                 <title>NileUp</title>
+
+
+                <!--Fontawesome-->
+                <script type="module" src="https://kit.fontawesome.com/5a5ffd6d29.js" crossorigin="anonymous"></script>
                 
                 <link rel="icon" href="images/best_of_logo.png" type="image/png">
 
-
-                <script src="https://kit.fontawesome.com/5a5ffd6d29.js" crossorigin="anonymous"></script>
-
+                
                 
                 <link rel="preconnect" href="https://fonts.googleapis.com">
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-                <script src="https://kit.fontawesome.com/5a5ffd6d29.js" crossorigin="anonymous"></script>
+
+                
 
                 <!-- swiper js -->
-                <link
-            rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-            />
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
                 
 
                 <link rel="stylesheet" href="style.css">
                 <link rel="stylesheet" href="jobsignup.css">
+
+                
             </head>
         `
     };
@@ -80,13 +79,11 @@ class MyNav extends HTMLElement {
                     
                 </a>
                 <ul class="nav__menu">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Jobs</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#faqs">FAQs</a></li>
-                    <li><a href="#contact">Contact Us</a></li>
-                    <li><a class="nav__btn" href="#contact">Login</a></li>
-                    <li><a class="nav__btn nav__btn2" href="#contact">Sign Up</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#services">Jobs</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="index.html#faqs">FAQs</a></li>
+                    <li><a href="index.html#contact">Contact Us</a></li>
                 </ul>
                 
                 <button class="nav__btns nav__open-toggle"><i class="fa-solid fa-bars"></i></button>
