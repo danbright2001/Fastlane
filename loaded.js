@@ -59,6 +59,8 @@ class MyHead extends HTMLElement {
 
                 <link rel="stylesheet" href="style.css">
                 <link rel="stylesheet" href="jobsignup.css">
+                <link rel="stylesheet" href="getstarted.css">
+                
 
                 
             </head>
@@ -81,6 +83,7 @@ class MyNav extends HTMLElement {
                 <ul class="nav__menu">
                     <li><a href="index.html#about">About</a></li>
                     <li><a href="index.html#services">Jobs</a></li>
+                    <li><a href="index.html#resources">Resources</a></li>
                     <li><a href="index.html#testimonials">Testimonials</a></li>
                     <li><a href="index.html#faqs">FAQs</a></li>
                     <li><a href="index.html#contact">Contact Us</a></li>
@@ -121,21 +124,20 @@ class MyFooter extends HTMLElement {
                     <div class="footer__2">
                         <h3>Company</h3>
                         <ul class="footer__menu">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#faqs">FAQ</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="index.html#about">About</a></li>
+                            <li><a href="index.html#services">jobs</a></li>
+                            <li><a href="index.html#resources">Resources</a></li>
+                            <li><a href="index.html#faqs">FAQ</a></li>
+                            <li><a href="index.html#contact">Contact</a></li>
                         </ul>
                     </div>
                     <div class="footer__3">
                         <h3>Resources</h3>
                         <ul class="footer__menu">
-                            <li><a href="">Blog</a></li>
+                            <li><a href="index.html#resources">Blog</a></li>
                             <li><a href="#about">Career Guide</a></li>
-                            <li><a href="">Customer Support</a></li>
-                            <li><a class="btn" href="">Freelancer</a></li>
+                            <li><a href="index.html#contact">Customer Support</a></li>
+                            <li><a class="btn" href="getstarted.html">Freelancer</a></li>
                         </ul>
                     </div>
                     <div class="footer__4">
@@ -145,10 +147,10 @@ class MyFooter extends HTMLElement {
                             <li><a href="tel:+254 751305530">+254 751305530</a></li>
                         </ul>
                         <ul class="footer__socials">
-                            <li><a href="https://t.me/jobHatch"><i class="fa-brands fa-telegram"></i></a></li>
-                            <li><a href="https://www.facebook.com/SitzsFleisch"><i class="fa-brands fa-facebook"></i></a></li>
-                            <li><a href="mailto:netchucker254@gmail.com"><i class="fa-regular fa-envelope"></i></a></li>
-                            <li><a href="https://www.instagram.com/insane_dantel_mad/"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a target="_blank" href="https://t.me/jobHatch"><i class="fa-brands fa-telegram"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/SitzsFleisch"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a target="_blank" href="mailto:netchucker254@gmail.com"><i class="fa-regular fa-envelope"></i></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/insane_dantel_mad/"><i class="fa-brands fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>

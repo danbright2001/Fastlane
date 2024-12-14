@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<my-head></my-head>
+<body>
+    <my-nav></my-nav>
+    
+    <div class="container getstarted">
+
+        <div>
+            <p>Join our community to stay updated with the latest opportunities, resources, and exclusive content. Simply provide your email, phone number, and WhatsApp contact to get started. Your information will be kept secure and used only to keep you informed.</p>
+
+            <form class="form__element" action="/submit" method="POST">
+                <label class="label__element" for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        
+                <label class="label__element" for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+        
+                <label class="label__element" for="whatsapp">WhatsApp Number:</label>
+                <input type="tel" id="whatsapp" name="whatsapp" placeholder="Enter your WhatsApp number" required>
+        
+                <button class="submit-btn" type="submit">Submit</button>
+            </form>
+        </div>
+        
+    </div>
+    <my-footer></my-footer>
+    <script src="loaded.js"></script>
+</body>
+</html>

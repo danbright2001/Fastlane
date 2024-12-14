@@ -26,14 +26,14 @@ if (jobj) {
             <p>${jobj.jobDescription}</p>
         </div>
 
-        <form action="/submit" method="POST">
-        <label for="email">Email:</label>
+        <form class="form__element" action="/submit" method="POST">
+        <label class="label__element" for="email">Email:</label>
         <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-        <label for="phone">Phone Number:</label>
+        <label class="label__element" for="phone">Phone Number:</label>
         <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
 
-        <label for="whatsapp">WhatsApp Number:</label>
+        <label class="label__element" for="whatsapp">WhatsApp Number:</label>
         <input type="tel" id="whatsapp" name="whatsapp" placeholder="Enter your WhatsApp number" required>
 
         <button class="submit-btn" type="submit">Submit</button>

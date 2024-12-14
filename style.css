@@ -374,6 +374,14 @@ header i {
 
 
 
+/* Resources */
+
+#resources {
+    background: var(--clr-enc-bg);
+}
+
+
+
 
 .swiper-wrapper {
     justify-content: center;

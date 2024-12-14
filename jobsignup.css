@@ -1,5 +1,5 @@
-.jobsignup {
-    margin-top: 7rem;
+.getstarted {
+    margin-top: 5rem;
 }
 
 .jobsignup {
@@ -10,7 +10,7 @@
 .service {
     border: none;
 }
-.jobsignup form {
+.form__element {
     max-width: 400px;
     margin-inline: auto;
     display: flex;
@@ -18,14 +18,14 @@
     box-shadow: 5px 0 15px #ff8838;
     padding: var(--en-gp);
 }
-.jobsignup label {
+.label__element {
     display: block;
     margin-bottom: 10px;
     font-weight: bold;
     color: var(--coo-white);
 }
 
-.jobsignup form input {
+.form__element input {
     width: 100%;
     padding: 15px;
     border-radius: 8px;
@@ -35,10 +35,10 @@
     color: white;
     margin-bottom: 10px;
 } 
-.jobsignup form input:focus {
+.form__element input:focus {
     border: 1px solid #ff8838;
 }
-.jobsignup form .submit-btn {
+.form__element .submit-btn {
     margin-top: 10px;
 }
 
