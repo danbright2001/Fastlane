@@ -558,7 +558,7 @@ header i {
 footer {
     color: var(--framer-text-color);
     margin-top: 7rem;
-    padding: 40px 0;
+    padding: 20px 0;
     background: var(--clr-dark-bg);
 }
 
