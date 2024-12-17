@@ -1,4 +1,4 @@
-
+import { form, input__element} from './shared.js';
 
 // Parse the jobTitle and jobDescription from the URL query string
 const params = new URLSearchParams(window.location.search);
@@ -29,13 +29,13 @@ if (jobj) {
         <form class="form__element" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="e5e5453d-4239-433b-92c9-cfcb7f7cce95">
         <label class="label__element" for="email">Email:</label>
-        <input type="email" id="email" name="jemail" placeholder="Enter your email" required>
+        <input class="input__element" type="email" id="email" name="jemail" placeholder="Enter your email" required>
 
         <label class="label__element" for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="jphone" placeholder="Enter your phone number" required>
+        <input class="input__element" type="tel" id="phone" name="jphone" placeholder="Enter your phone number" required>
 
         <label class="label__element" for="whatsapp">WhatsApp Number:</label>
-        <input type="tel" id="whatsapp" name="jwhatsapp" placeholder="Enter your WhatsApp number" required>
+        <input class="input__element" type="tel" id="whatsapp" name="jwhatsapp" placeholder="Enter your WhatsApp number" required>
 
         <button class="submit-btn" type="submit">Submit</button>
       </form>
