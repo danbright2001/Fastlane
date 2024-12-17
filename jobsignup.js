@@ -26,7 +26,8 @@ if (jobj) {
             <p>${jobj.jobDescription}</p>
         </div>
 
-        <form class="form__element" action="/submit" method="POST">
+        <form class="form__element" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="e5e5453d-4239-433b-92c9-cfcb7f7cce95">
         <label class="label__element" for="email">Email:</label>
         <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
