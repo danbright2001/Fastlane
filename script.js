@@ -1,7 +1,6 @@
 import { forDetails} from '../data/for.js';
 import { testimonials} from '../data/testimonials.js';
 import { jobs} from '../data/jobs.js';
-import { form, input__element} from './shared.js';
 
 
 
