@@ -7,36 +7,16 @@ class MyHead extends HTMLElement {
 
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <meta name="google-site-verification" content="8bWw4f_ilpzg5W3ZC4PE18dqZD-YaRqP68zmaokIPeY" />
-                <!-- Google tag (gtag.js) -->
                 
 
                     <!-- Meta Description -->
-                <meta name="description" content="NileUp connects you to flexible online jobs in transcription, online Surveys, content writing, copywriting, data entry, crypto trading, and more. Start earning today!">
+                <meta name="description" content="NileUp connects you to flexible online jobs in transcription, online Surveys, content writing, data entry, social media engagement, and more. Start earning today!">
 
                 <!-- Meta Keywords -->
-                <meta name="keywords" content="online jobs, online surveys, remote work, flexible jobs, transcription, content writing, copywriting, data entry, crypto trading, earn money online">
+                <meta name="keywords" content="online jobs, online surveys, remote work, flexible jobs, transcription, content writing, surveys, data entry, social media, earn money online">
 
                 <!-- Meta Author -->
                 <meta name="author" content="NileUp Team">
-
-                <!-- Meta Viewport for Responsive Design -->
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-                <!-- Open Graph Tags for Social Media -->
-                <meta property="og:title" content="NileUp - Your Gateway to Online Jobs">
-                <meta property="og:description" content="Connect with flexible online job opportunities in transcription, content writing, copywriting, data entry, crypto trading, and more.">
-                <meta property="og:image" content="URL_to_image">
-                <meta property="og:url" content="https://www.NileUp.com">
-
-                <!-- Twitter Card Tags for Better Sharing on Twitter -->
-                <meta name="twitter:card" content="summary_large_image">
-                <meta name="twitter:title" content="NileUp - Your Gateway to Online Jobs">
-                <meta name="twitter:description" content="Connect with flexible online job opportunities in transcription, content writing, copywriting, data entry, crypto trading, and more.">
-                <meta name="twitter:image" content="URL_to_image">
-
-
-                
 
                 <title>NileUp</title>
 
