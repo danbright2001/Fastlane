@@ -57,7 +57,7 @@ class MyNav extends HTMLElement {
             <nav>
                 <div class="container nav__container">
                 <a href="index.html" class="logo__holder">
-                    <img class="logo__image" src="images/nu_logo.png" alt="">
+                    <img class="logo__image" src="images/NileUp_logo.png" alt="">
                     
                 </a>
                 <ul class="nav__menu">
