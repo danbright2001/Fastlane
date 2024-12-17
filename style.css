@@ -558,7 +558,7 @@ header i {
 footer {
     color: var(--framer-text-color);
     margin-top: 7rem;
-    padding: 20px 0;
+    padding: 10px 0 10px;
     background: var(--clr-dark-bg);
 }
 
@@ -616,7 +616,7 @@ footer {
 .copyright__container {
     border-top: 2px solid white;
     p {
-        margin-top: 40px;
+        margin-top: 20px;
         text-align: center;
     }
 }

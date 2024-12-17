@@ -3,6 +3,7 @@ class MyHead extends HTMLElement {
         this.innerHTML = `
             <head>
                 <!--Google Verification Tag-->
+                <meta name="google-site-verification" content="8bWw4f_ilpzg5W3ZC4PE18dqZD-YaRqP68zmaokIPeY" />
 
                 <meta charset="UTF-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
