@@ -2,6 +2,7 @@ class MyHead extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <head>
+
                 <meta name="google-site-verification" content="8bWw4f_ilpzg5W3ZC4PE18dqZD-YaRqP68zmaokIPeY" />
 
                 <meta charset="UTF-8">

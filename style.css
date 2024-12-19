@@ -721,7 +721,6 @@ footer {
     }
     .logo__image {
         height: 3.4rem;
-        width: 3.4rem;
     }
     .hero {
         margin-top: 4rem;
@@ -737,9 +736,7 @@ footer {
         letter-spacing: 0;
         line-height: unset;
     }
-    .logo__text {
-        font-weight: 800;
-    }
+
     .hero__content {
         grid-template-columns: 1fr;
         gap: 1rem;
