@@ -206,6 +206,7 @@ nav {
 
 
 .hero__text {
+    text-align: center;
     magin: 2rem auto 2rem;
     font-size: 1.2rem;
 
