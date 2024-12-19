@@ -110,13 +110,67 @@
 
 
     <section class="container" id="testimonials">
-        <h2>Testimonials</h2>
-        <div class="testimonial-content">
-            <div class="swiper mySwiper testimonial-slider js-testimonial-slider">
-                <div class="swiper-wrapper js-testimonial">
-                   
+        <h2>TESTIMONIALS</h2>
+        <div class="testimonial-container">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <img src="https://via.placeholder.com/80" alt="Person 1">
+                            <div class="name">Leroy </div>
+                            <div class="position">Transcriber</div>
+                            <div class="description">"This platform has transformed the way I work online! Highly recommended."</div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <img src="https://via.placeholder.com/80" alt="Person 2">
+                            <div class="name">Belick Kimani</div>
+                            <div class="position">Survey Participant</div>
+                            <div class="description">"A fantastic experience. The opportunities here are endless!"</div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <img src="https://via.placeholder.com/80" alt="Person 3">
+                            <div class="name">Sophia Mulinge</div>
+                            <div class="position">Virtual Assistant</div>
+                            <div class="description">"The best platform for freelancers. Very user-friendly and rewarding."</div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 4 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <img src="https://via.placeholder.com/80" alt="Person 4">
+                            <div class="name">Paul Andai</div>
+                            <div class="position">Website Tester</div>
+                            <div class="description">"I never thought I could find such amazing clients. Thank you!"</div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 5 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <img src="https://via.placeholder.com/80" alt="Person 5">
+                            <div class="name">Emily Davis</div>
+                            <div class="position">Data Entry</div>
+                            <div class="description">"Perfect for anyone looking to grow their online career."</div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 6 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial">
+                            <img src="https://via.placeholder.com/80" alt="Person 6">
+                            <div class="name">Agnes Kipkosgei</div>
+                            <div class="position">Social Media Engager</div>
+                            <div class="description">"An excellent platform that provides real value and results."</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper-pagination js-testimonial-pagination"></div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </section>
@@ -250,30 +304,28 @@
     <script type="module" src="shared.js"></script>
     
     <script type="module" src="data/jobs.js"></script>
-    <script type="module" src="data/testimonials.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script>
-       var swiper = new Swiper(".mySwiper", {
-            spaceBetween: 20, // Space between slides
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true, // Enable clickable pagination bullets
-            },
-            breakpoints: {
-                // When the viewport is 640px or more, show 1 slide
-                640: {
-                slidesPerView: 1, // Show 1 slide on medium screens
-                },
-                // When the viewport is 1024px or more, show 3 slides
-                1024: {
-                slidesPerView: 1,
-                centeredSlides: true,
-                 // Show 3 slides on large screens
-                },
-            },
-        });
-
+      const swiper = new Swiper('.swiper', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        breakpoints: {
+          1024: {
+            slidesPerView: 3,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          650: {
+            slidesPerView: 1,
+          },
+        },
+      });
     </script>
     <script type="module" src="script.js">
         

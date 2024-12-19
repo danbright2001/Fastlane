@@ -43,8 +43,11 @@ class MyFooter extends HTMLElement {
 
                             
                         <div class="subscribe_input">
-                            <input type="email" placeholder="Enter Your Email" required>
-                            <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                            <form  action="https://api.web3forms.com/submit" method="POST">
+                                <input class="input__element" type="hidden" name="access_key" value="e5e5453d-4239-433b-92c9-cfcb7f7cce95">
+                                <input type="email" name="sub_email" placeholder="Enter Your Email" required>
+                                <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                            </form>
                         </div>
                     
                     </div>

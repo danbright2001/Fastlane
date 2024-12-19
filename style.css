@@ -16,7 +16,7 @@
     --clr-white: white;
     --clr-white70: #ffffffb3;
     --clr-cp: #ff8838;
-    
+
     --en-bdrr: 12px;
     --en-gp: 20px;
     --en-pd: 20px;
@@ -51,18 +51,6 @@ img {
     height: auto; /* Keeps the aspect ratio */
     display: block; /* Removes the extra space below the image */
     object-fit: cover; /* Ensures the image covers the container without stretching */
-}
-select {
-    color: var(--clr-white);
-    border: none;
-    font-size: 1.2rem;
-    background-color: transparent; /* Optional: Remove background color */
-    appearance: noe; /* Remove default styling */
-    -webkit-appearance: none; /* For WebKit browsers */
-    -moz-appearance: none; /* For Firefox */
-}
-option {
-    background: var(--clr-dark-bg);
 }
 
 
@@ -111,15 +99,15 @@ nav {
     object-fit: contain;
     justify-content: space-between;
 }
-            
+
 .logo__image {
     display: flex;
     height: 3.4rem;
     object-fit: contain;
     align-items: center;
 }
-            
-        
+
+
 .nav__menu {
     list-style-type: none;
     display: flex;
@@ -144,7 +132,7 @@ nav {
 .nav__btn2 {
     background-color: unset;
     border: 1px solid var(--clr-cp);
-}     
+}
 .nav__btns {
     display: none;
     cursor: pointer;
@@ -153,7 +141,7 @@ nav {
     font-size: 1.6rem;
     align-items: center;
 }
-    
+
 
 
 
@@ -206,7 +194,7 @@ nav {
 
 
 .hero__text {
-    
+
     font-size: 1.2rem;
 
 }
@@ -225,14 +213,14 @@ nav {
     line-height: 34px;
     color: var(--clr-white);
     cursor: pointer;
-    
+
     font-weight: 800;
     font-size: 26px;
     text-transform: uppercase;
     border: 4px solid var(--clr-cp);
 
     box-shadow: 0 0 40px #ffbb3836;
-    
+
 }
 
 
@@ -257,16 +245,16 @@ header i {
 }
 
 #about {
-    background: var(--clr-enc-bg); 
+    background: var(--clr-enc-bg);
     padding: var(--en-pd);
 }
 
 .about__container {
-    display: grid; 
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: var(--en-gp); 
-     
-   
+    gap: var(--en-gp);
+
+
 }
 .about-left, .about-right {
     justify-content: center;
@@ -283,6 +271,8 @@ header i {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: var(--en-gp);
     justify-content: center;
+    width: 90%;
+    margin: auto;
 }
 
 .framer_1 {
@@ -313,6 +303,7 @@ header i {
     flex-direction: column;
 }
 .framer_title {
+    text-align: center;
     font-size: 24px;
     font-weight: 700;
     color: var(--clr-cp);
@@ -324,7 +315,7 @@ header i {
     justify-content: center;
 }
 
-    
+
 
 .services {
     display: grid;
@@ -384,7 +375,88 @@ header i {
 
 
 
-.swiper-wrapper {
+
+
+
+.testimonial-container {
+width: 90%;
+max-width: 1200px;
+margin: auto;
+
+}
+
+.swiper-pagination {
+    position: relative;
+
+}
+
+.swiper-pagination-bullet {
+width: 12px;
+height: 12px;
+background-color: #007bff;
+opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+background-color: var(--clr-cp);
+}
+
+.swiper-slide {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.testimonial {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 20px;
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+max-width: 300px;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: space-between;
+box-sizing: border-box;
+}
+
+.swiper-slide {
+display: flex;
+flex-direction: column;
+}
+
+.testimonial img {
+width: 80px;
+height: 80px;
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 15px;
+}
+
+.testimonial .name {
+font-weight: bold;
+font-size: 1.2em;
+color: #000;
+}
+
+.testimonial .position {
+font-size: 0.9em;
+color: gray;
+margin-bottom: 10px;
+}
+
+.testimonial .description {
+font-size: 1em;
+color: #555;
+flex-grow: 1;
+}
+
+
+/* .swiper-wrapper {
     justify-content: center;
 }
 .testimonial-item {
@@ -396,8 +468,7 @@ header i {
     display: flex;
     justify-content: center;
     height: 100%; /* Ensure slides take full height of container */
-    flex-direction: column;
-}
+/* }
 .testimonial-item .info {
     display: flex;
     align-items: center;
@@ -416,15 +487,14 @@ header i {
 }
 .testimonial-item p {
     margin-top: 20px;
-}
+} */
 
 /* Ensure the swiper container has relative positioning */
-.swiper-pagination {
+/* .swiper-pagination {
     position: relative;
     margin-top: 40px;
     bottom: auto;
-}
-
+}*/ 
 
 
 
@@ -729,7 +799,7 @@ footer {
     .hero__cta .contact_us {
         display: none;
     }
-    
+
     .hero__text {
         text-align: center;
         margin: 2rem 0;
@@ -805,7 +875,7 @@ footer {
         display: none;
     }
     .contact-left {
-        padding: 1.4rem 
+        padding: 1.4rem
     }
     .form-group input, .form-group textarea {
         padding: 0.6rem;
