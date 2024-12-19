@@ -369,7 +369,8 @@ header i {
 .job__btn {
     position: absolute;
     bottom: 1rem;
-    right: 30%;
+    left: 50%; /* Moves the element halfway across the parent */
+    transform: translateX(-50%); /* Shifts the element back by half its width */
 }
 
 
