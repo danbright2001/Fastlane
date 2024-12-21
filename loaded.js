@@ -8,12 +8,12 @@ class MyNav extends HTMLElement {
                     
                 </a>
                 <ul class="nav__menu">
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#services">Jobs</a></li>
-                    <li><a href="index.html#resources">Resources</a></li>
-                    <li><a href="index.html#testimonials">Testimonials</a></li>
-                    <li><a href="index.html#faqs">FAQs</a></li>
-                    <li><a href="index.html#contact">Contact Us</a></li>
+                    <li><a href="../index.html#about">About</a></li>
+                    <li><a href="../index.html#services">Jobs</a></li>
+                    <li><a href="../index.html#resources">Resources</a></li>
+                    <li><a href="../index.html#testimonials">Testimonials</a></li>
+                    <li><a href="../index.html#faqs">FAQs</a></li>
+                    <li><a href="../index.html#contact">Contact Us</a></li>
                 </ul>
                 
                 <button class="nav__btns nav__open-toggle"><i class="fa-solid fa-bars"></i></button>
@@ -44,8 +44,8 @@ class MyFooter extends HTMLElement {
                             
                         <div class="subscribe_input">
                             <form  action="https://api.web3forms.com/submit" method="POST">
-                                <input class="input__element" type="hidden" name="access_key" value="e5e5453d-4239-433b-92c9-cfcb7f7cce95">
-                                <input type="email" name="sub_email" placeholder="Enter Your Email" required>
+                                <input type="hidden" name="access_key" value="e5e5453d-4239-433b-92c9-cfcb7f7cce95">
+                                <input class="input__element" type="email" name="sub_email" placeholder="Enter Your Email" required>
                                 <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
                             </form>
                         </div>

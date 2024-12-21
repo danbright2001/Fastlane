@@ -456,45 +456,32 @@ flex-grow: 1;
 }
 
 
-/* .swiper-wrapper {
-    justify-content: center;
-}
-.testimonial-item {
-    background: var(--clr-enc-bg);
-    padding: 20px;
-    border-radius: var(--en-bdrr);
-}
-.swiper-slide {
-    display: flex;
-    justify-content: center;
-    height: 100%; /* Ensure slides take full height of container */
-/* }
-.testimonial-item .info {
+/* SUBSCRIBE */
+.subscribe__container {
+    background: var(--clr-dark-bg);
+    color: var(--clr-white);
     display: flex;
     align-items: center;
+    padding: 4rem;
+    height: 20rem;
+    border-radius: 2rem;
 }
-
-.testimonial-item img {
-    max-width: 80px;
-    border-radius: 50%;
-    margin-right: 20px;
-    vertical-align: middle;
+.subscribe__text {
+    width: 80%;
 }
-.testimonial-item .name {
-    font-size: 24px;
+.subscribe__text h2 {
+    text-align: center;
+}
+.subscribe__text  p {
+    margin-top: 1.4rem;  
+}
+.sbtn {
+    display: inline-block;
+    padding: 1rem 2.3rem;
+    background: var(--clr-cp);
     font-weight: 600;
-    line-height: 1.2;
+    border-radius: 0.4rem;
 }
-.testimonial-item p {
-    margin-top: 20px;
-} */
-
-/* Ensure the swiper container has relative positioning */
-/* .swiper-pagination {
-    position: relative;
-    margin-top: 40px;
-    bottom: auto;
-}*/ 
 
 
 
@@ -866,6 +853,22 @@ footer {
     .service__title img {
         height: 1.9rem;
     }
+
+
+
+
+    /* ==============Subscribe=========== */
+    .subscribe__container {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+        padding: 3rem;
+        font-size: 1.2rem;
+    }
+    .subscribe__container p {
+        width: 90%;
+    }
+
 
 
     .footer__container {

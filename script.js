@@ -94,7 +94,6 @@ forDetails.forEach((detail) => {
         </div>
     `
 })
-
 document.querySelector('.framer_container').innerHTML = detailHtml;
 
 
