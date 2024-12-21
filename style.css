@@ -857,17 +857,17 @@ footer {
 
 
 
-/* ==============Subscribe=========== */
-.subscribe__container {
-    flex-direction: column;
-    height: auto;
-    gap: 2rem;
-    padding: 3rem;
-    font-size: 1.2rem;
-}
-.subscribe__text {
-    width:100%
-}
+    /* ==============Subscribe=========== */
+    .subscribe__container {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+        padding: 3rem;
+        font-size: 1.2rem;
+    }
+    .subscribe__text {
+        width:100%
+    }
 
 
 
