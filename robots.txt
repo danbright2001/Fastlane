@@ -1,4 +1,2 @@
-User-agent: *
-Allow: /
 
-Sitemap: https://nileupcareerjobsonline.netlify.app/sitemap.xml
+Sitemap: https://nileupcareerjobsonline.netlify.app/atom-sitemap.xml
