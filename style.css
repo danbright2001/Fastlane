@@ -862,11 +862,12 @@ footer {
         flex-direction: column;
         height: auto;
         gap: 2rem;
-        padding: 3rem;
+        padding: var(--en-pd);
         font-size: 1.2rem;
     }
     .subscribe__text {
-        width:100%
+        width:100%;
+        align-items: stretch;
     }
 
 
