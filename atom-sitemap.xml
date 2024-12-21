@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Sitemap for NileUp Career Jobs Online</title>
+    <link href="https://nileupcareerjobsonline.netlify.app/" />
+    <updated>2024-12-21T04:57:06+00:00</updated>
+    <entry>
+        <link href="https://nileupcareerjobsonline.netlify.app/" />
+        <updated>2024-12-21T04:57:06+00:00</updated>
+    </entry>
+    <entry>
+        <link href="https://nileupcareerjobsonline.netlify.app/getstarted" />
+        <updated>2024-12-21T04:57:06+00:00</updated>
+    </entry>
+</feed>
