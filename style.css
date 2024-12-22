@@ -245,7 +245,7 @@ header i {
 }
 
 #about {
-    background: var(--clr-enc-bg);
+    background: var(--clr-dark-bg);
     padding: var(--en-pd);
 }
 
@@ -280,7 +280,7 @@ header i {
     flex-direction: column;
     padding: 20px;
     border-radius: 12px;
-    background: #ffffff05;
+    background:var(--clr-dark-bg);
     align-items: center;
     border: 1px solid rgb(255, 255, 255, 0.8);
     gap: 20px;
@@ -328,7 +328,7 @@ header i {
     border: 1px solid var(--clr-en-bd);
     padding: var(--en-pd);
     border-radius: var(--en-bdrr);
-    background: var(--clr-enc-bg);
+    background: var(--clr-dark-bg);
     position: relative;
 }
 .service__title {
@@ -365,12 +365,6 @@ header i {
 }
 
 
-
-/* Resources */
-
-#resources {
-    background: var(--clr-enc-bg);
-}
 
 
 
