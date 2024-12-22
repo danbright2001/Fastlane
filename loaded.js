@@ -3,21 +3,21 @@ class MyNav extends HTMLElement {
         this.innerHTML = `
             <nav>
                 <div class="container nav__container">
-                <a href="index.html" class="logo__holder">
-                    <img class="logo__image" src="images/NileUp_logo.png" alt="">
+                    <a href="index.html" class="logo__holder">
+                        <img class="logo__image" src="images/Nile__logo.png" alt="">
+                        
+                    </a>
+                    <ul class="nav__menu">
+                        <li><a href="../index.html#about">About</a></li>
+                        <li><a href="../index.html#services">Jobs</a></li>
+                        <li><a href="../index.html#resources">Resources</a></li>
+                        <li><a href="../index.html#testimonials">Testimonials</a></li>
+                        <li><a href="../index.html#faqs">FAQs</a></li>
+                        <li><a href="../index.html#contact">Contact Us</a></li>
+                    </ul>
                     
-                </a>
-                <ul class="nav__menu">
-                    <li><a href="../index.html#about">About</a></li>
-                    <li><a href="../index.html#services">Jobs</a></li>
-                    <li><a href="../index.html#resources">Resources</a></li>
-                    <li><a href="../index.html#testimonials">Testimonials</a></li>
-                    <li><a href="../index.html#faqs">FAQs</a></li>
-                    <li><a href="../index.html#contact">Contact Us</a></li>
-                </ul>
-                
-                <button class="nav__btns nav__open-toggle"><i class="fa-solid fa-bars"></i></button>
-                <button class="nav__btns nav__close-toggle"><i class="fa-solid fa-xmark"></i></button>
+                    <button class="nav__btns nav__open-toggle"><i class="fa-solid fa-bars"></i></button>
+                    <button class="nav__btns nav__close-toggle"><i class="fa-solid fa-xmark"></i></button>
                 
                 </div>
             </nav>
